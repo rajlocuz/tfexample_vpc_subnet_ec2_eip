@@ -1,3 +1,7 @@
+provider "aws" {
+  region = "${var.region}"
+}
+
 resource "aws_vpc" "tfexample_vpc" {
     cidr_block = "190.0.0.0/16"
     instance_tenancy = "dedicated"
