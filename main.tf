@@ -32,7 +32,7 @@ resource "aws_subnet" "tfexample_subnet" {
 }
 */
 resource "aws_instance" "tfexample_instance" {
-    ami = "ami-02bcbb802e03574ba"
+    ami = "ami-0889b8a448de4fc44"
     instance_type = "t2.micro"
     /*network_interface {
     network_interface_id = "${aws_network_interface.tfexample_network.id}"
